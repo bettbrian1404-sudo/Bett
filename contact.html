@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Bett Consultancy</title>
+  <meta name="description" content="Get in touch with Bett Consultancy for web development and graphic design in Kenya. Call, WhatsApp, or send a message.">
+  <meta property="og:title" content="Contact Us | Bett Consultancy">
+  <meta property="og:description" content="Tell us about your business and what you need — we'll get back to you fast.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.com/contact.html">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231B2A41'/%3E%3Ctext x='32' y='42' font-family='Poppins, sans-serif' font-weight='700' font-size='26' fill='%23D9A544' text-anchor='middle'%3EBC%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Bett Consultancy</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary active" aria-current="page">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Get In Touch</h1>
+        <p class="hero-sub-dark">Tell us about your business and what you need — we'll get back to you fast.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2>Contact Details</h2>
+          <p><strong>Phone:</strong> <a href="tel:0112813110">0112 813 110</a></p>
+          <p><strong>Email:</strong> <a href="mailto:bettbrian1404@gmail.com">bettbrian1404@gmail.com</a></p>
+          <p><strong>Location:</strong> Kenya</p>
+          <p><strong>Business Hours:</strong> Mon – Fri, 8:00 AM – 6:00 PM</p>
+
+          <a href="https://wa.me/254112813110" class="btn btn-whatsapp" target="_blank" rel="noopener">
+            Chat on WhatsApp
+          </a>
+
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error-msg" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error-msg" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <span class="error-msg" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="logo">Bett Consultancy</p>
+        <p>Web development &amp; graphic design for business owners in Kenya.</p>
+      </div>
+      <div class="footer-contact">
+        <p>Phone: 0112813110</p>
+        <p>Email: bettbrian1404@gmail.com</p>
+      </div>
+    </div>
+    <p class="footer-bottom">&copy; 2026 Bett Consultancy. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
